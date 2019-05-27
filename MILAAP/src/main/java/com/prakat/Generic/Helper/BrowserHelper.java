@@ -14,8 +14,8 @@ public class BrowserHelper extends BaseTest {
 	public void minimiseeWindow(int len,int wed) {
 		driver.manage().window().setPosition(new Point(len,wed));
 	}
-	public void navigateToUrl(String url) {
-		driver.navigate().to(url);		
+	public void navigateToUrl(String Url) {
+		driver.navigate().to(Url);		
 	}
 	public void getToUrl(String url) {
 		driver.navigate().to(url);		
