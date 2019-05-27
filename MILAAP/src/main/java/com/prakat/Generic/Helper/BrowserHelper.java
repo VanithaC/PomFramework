@@ -17,8 +17,8 @@ public class BrowserHelper extends BaseTest {
 	public void navigateToUrl(String Url) {
 		driver.navigate().to(Url);		
 	}
-	public void getToUrl(String url) {
-		driver.navigate().to(url);		
+	public void getToUrl(String Url) {
+		driver.navigate().to(Url);		
 	}
 	public void navigateBack() {
 		driver.navigate().back();
